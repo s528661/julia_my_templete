@@ -1,5 +1,8 @@
 import Pkg
-Pkg.add("ArgParse")
+# Warning: Pkg.installed() is deprecated
+if "ArgParse" in keys(Pkg.dependencies())
+    Pkg.add("ArgParse")
+end
 using ArgParse
 
 function parse_commandline(p_settings)
