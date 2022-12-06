@@ -2,5 +2,5 @@
 Usage:  
   - competitions or contests for programmer  
   - my hobby  
-  - etc ...  
+  - others
   
